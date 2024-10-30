@@ -52,7 +52,7 @@ public class UpdateRoom extends JFrame implements ActionListener{
      
       // creamos un label para saber a que nos referimos  
      JLabel lblhab = new JLabel ("NUMERO HABITACION");
-     lblhab.setBounds(30,130,100,30); // posicionamos el label en la ventana     
+     lblhab.setBounds(30,130,200,30); // posicionamos el label en la ventana     
      add(lblhab);  // añadimos
      
      // creamos un campo de texto(TEXTFIELD)  lo dejamos vacio por que se completa con los datos que se piden de la base 
@@ -74,7 +74,7 @@ public class UpdateRoom extends JFrame implements ActionListener{
      
       // creamos un label para saber a que nos referimos  
      JLabel lblcheckin = new JLabel ("ESTADO DE LIMPIEZA");
-     lblcheckin.setBounds(30,230,100,30);  // posicionamos el elemento  
+     lblcheckin.setBounds(30,230,200,30);  // posicionamos el elemento  
      add(lblcheckin);  // añadimos el elemento
      
      
@@ -121,7 +121,7 @@ public class UpdateRoom extends JFrame implements ActionListener{
      add(image);// añadimos el elemento
      
      
-    setBounds(300,200,980,450);// esto hace parte de la posicion de la ventana que contiene todo lo que se esta añadiendo  anteriormente
+    setBounds(200,200,1000,450);// esto hace parte de la posicion de la ventana que contiene todo lo que se esta añadiendo  anteriormente
     setVisible(true);// decidimos mostrar siempre la ventana claro cuando se requiera
     }
    

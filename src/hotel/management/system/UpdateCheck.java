@@ -56,7 +56,7 @@ public class UpdateCheck extends JFrame implements ActionListener{
      
      // creamos un label para saber a que nos referimos  
      JLabel lblhab = new JLabel ("NUMERO HABITACION");
-     lblhab.setBounds(30,120,100,30);    // posicionamos el label en la ventana 
+     lblhab.setBounds(30,120,200,30);    // posicionamos el label en la ventana 
      add(lblhab);  // añadimos el label a la ventana
      
       //creamos un espacio de texto vacio para llenarlo con info de la base de datos
@@ -88,7 +88,7 @@ public class UpdateCheck extends JFrame implements ActionListener{
      
       // creamos un label para saber a que nos referimos 
      JLabel lblpago = new JLabel ("MONTO DE PAGO");
-     lblpago.setBounds(30,240,100,30);    // posicionamos el label en la ventana  
+     lblpago.setBounds(30,240,200,30);    // posicionamos el label en la ventana  
      add(lblpago);  // añadimos el label a la ventana
      
      //creamos un espacio de texto vacio para llenarlo con info de la base de datos
@@ -98,7 +98,7 @@ public class UpdateCheck extends JFrame implements ActionListener{
      
       // creamos un label para saber a que nos referimos 
      JLabel lblpend = new JLabel ("MONTO PENDIENTE");
-     lblpend.setBounds(30,280,100,30);    // posicionamos el label en la ventana    
+     lblpend.setBounds(30,280,200,30);    // posicionamos el label en la ventana    
      add(lblpend);  // añadimos el label a la ventana
      
      //creamos un espacio de texto vacio para llenarlo con info de la base de datos
@@ -139,7 +139,7 @@ public class UpdateCheck extends JFrame implements ActionListener{
      add(image);//añadimos
      
      
-    setBounds(300,200,980,500);//dimension y posicion de la ventan
+    setBounds(100,200,1080,500);//dimension y posicion de la ventan
     setVisible(true);//ventana visible
     }
    

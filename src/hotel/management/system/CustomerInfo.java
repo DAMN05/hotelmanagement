@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
 import net.proteanit.sql.*;
-import java.awt.event.*;
+
 
 
 
@@ -53,7 +53,7 @@ public class CustomerInfo extends JFrame implements ActionListener{
         l7.setBounds(790,10,100,20);
         add(l7);
         
-        JLabel l8 = new JLabel ("Identificacion ");
+        JLabel l8 = new JLabel ("Deposito ");
         l8.setBounds(890,10,100,20);
         add(l8);
         

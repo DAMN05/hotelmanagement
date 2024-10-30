@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Reception extends JFrame implements ActionListener{
-    JButton newCostumer,rooms,depa,allEmp,managerinfo,customer,searchRonm,update,roomsta,pickup,checkout;
+    JButton newCostumer,rooms,depa,allEmp,managerinfo,customer,searchRonm,update,roomsta,pickup,checkout,logout;
     Reception(){
         
         getContentPane().setBackground(Color.WHITE);
@@ -91,10 +91,11 @@ public class Reception extends JFrame implements ActionListener{
         add(searchRonm);
         
         
-        JButton logout = new JButton("CERRAR SESION");
+        logout = new JButton("CERRAR SESION");
         logout.setBounds(10,470,200,30);
         logout.setBackground(Color.BLACK);
         logout.setForeground(Color.WHITE);
+        logout.addActionListener(this);
         add(logout);
         
         
@@ -147,6 +148,9 @@ public class Reception extends JFrame implements ActionListener{
     }else if (ae.getSource()==checkout){
             setVisible(false);
             new Checkout();
+    }else if (ae.getSource()==logout){
+            setVisible(false);
+            new Login();
     }
     }   
     public static void main (String[] args) {
